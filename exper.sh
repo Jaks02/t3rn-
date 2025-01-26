@@ -1,15 +1,3 @@
-#!/bin/bash
-# Colors
-RED='\033[0;31m'
-BLUE='\033[0;34m'
-NC='\033[0m'
-
-echo -e "${RED}Join our Telegram channel: https://t.me/kriptoqapik${NC}"
-echo -e "${BLUE}-----------------------------------------------------${NC}"
-echo -e "${RED}Get free 20€ credit for VPS on Hetzner: https://hetzner.cloud/?ref=mjjaxNOJxUW1${NC}"
-sleep 3
-
-
 # Step 0: Clean up previous installations
 echo "Cleaning up previous installations..."
 if [ -d "t3rn" ]; then
